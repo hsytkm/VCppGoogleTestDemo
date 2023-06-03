@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{6dc3b126-a46f-4972-9364-194ad771f4fe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LibClass.h" />
+    <ClInclude Include="framework.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LibClass.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
